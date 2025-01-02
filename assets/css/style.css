@@ -43,7 +43,7 @@
     left: 25px;
 }
 
-.sidebar .show{
+.sidebar.show{
     left: 0;
     
 }
