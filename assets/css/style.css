@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: -450px;
+    transition: all .45 ease-in-out;
+    z-index: 1;
+
+}
+
+.section{
+    height: 90vh;
+    border: 10px solid #ededed;
+    padding: 25px;
+    font-size: 38px;
+
+}
+
+.sideBarToggle{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+.sideBarClose{
+    position: absolute;
+    color: #fff;
+    font-size: 38px;
+    cursor: pointer;
+    top: 25px;
+    left: 25px;
+}
+
+.sidebar .show{
+    left: 0;
+    
+}
+
+
+.backDrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.d-none{
+    display: none;
+}
+
+
+
